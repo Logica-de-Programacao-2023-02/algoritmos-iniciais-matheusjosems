@@ -1,0 +1,91 @@
+Algoritmo de soma de dois números: 
+um algoritmo simples que pede dois números como entrada e retorna a soma desses dois números.
+
+1:leia A 
+2:leia B
+3:resutado A + B 
+4:escreva resutado 
+
+Algoritmo de conversão de temperatura: 
+um algoritmo que converte uma temperatura em Celsius para Fahrenheit ou vice-versa. 
+
+1:leia temperatura 
+2:leia unidade de medida 
+3:se a unidade = celsius 
+4:entao resutado = (temperatura * 1.8) + 32
+5:se nao 
+6:entao resutado = ( temperatura - 32) / 1.8 
+7:escreva resutado 
+
+Algoritmo de cálculo de média: 
+um algoritmo que calcula a média de uma lista de números.
+
+1:leia lista de numeros 
+2:enquanto soma cada numero da lista 
+3:resutado A 
+4:faça faça a soma da quantidade de elementos da lista 
+5:resutado B 
+6:faça A / B 
+7:escreva resutado
+
+Algoritmo de cálculo de fatorial:
+um algoritmo que calcula o fatorial de um número, ou seja, o produto de todos os números inteiros de 1 até aquele número.
+
+1:leia A
+2:fatorial = 1
+3:enquanto > 1 
+4: fatorial = fatorial * numero 
+5: numero = numero - 1 
+6: escreva fatorial 
+
+Algoritmo de busca linear: 
+um algoritmo que procura por um determinado elemento em uma lista, verificando cada elemento da lista até encontrá-lo.
+
+1:leia lista 
+2:verificar os elementos da lista 
+3:faça busca pelo elemento A 
+7:escreva o resutado 
+
+Algoritmo de cálculo de potência:
+um algoritmo que calcula a potência de um número, elevando-o a uma determinada potência.
+
+1:leia o algoritmo A
+2:leia a potencia 
+3:faça * do numero base (algoritmo A) quantas vezes for a potencia
+
+Algoritmo de verificação de número primo:
+um algoritmo que verifica se um número é primo, ou seja, se é divisível apenas por 1 e por ele mesmo.
+
+1:leia o algoritmo A
+2:se algoritmo for > 1 e divisivel por A
+3:escreva o resutado 
+
+Algoritmo de cálculo de área de um triângulo:
+um algoritmo que calcula a área de um triângulo com base na base e altura fornecidas.
+
+1: leia a forma geometrica 
+2: leia se a forma geometrica tiver tres lados sendo pelo menos dois deles iguais 
+3: leia o valor dos tres lados 
+4: leia o valor da altura 
+5: faça a base * altura = A
+6: faça a A / 2
+7: escreva o resutado
+
+Algoritmo de cálculo de juros compostos:
+um algoritmo que calcula o montante de dinheiro após um período de tempo com juros compostos.
+
+1: leia o valor A 
+2: leia a taixa 
+3: enquanto o periodo for > 1 dia 
+4: A * 1-taixa * tempo 
+7: escreva o resutado
+
+Algoritmo de cálculo de média ponderada:
+um algoritmo que calcula a média ponderada de uma lista de números com base nos pesos fornecidos.
+
+1: leia a tabela 
+2: faça * de cada valor pelo peso = A
+3: faça A / + de todos os pesos
+4: escreva o resutado 
+
+
