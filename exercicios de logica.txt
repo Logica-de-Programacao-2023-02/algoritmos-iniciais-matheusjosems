@@ -4,7 +4,7 @@ um algoritmo simples que pede dois números como entrada e retorna a soma desses
 1:leia A 
 2:leia B
 3:resutado A + B 
-4:escreva resutado 
+4:escreva resutado
 
 Algoritmo de conversão de temperatura: 
 um algoritmo que converte uma temperatura em Celsius para Fahrenheit ou vice-versa. 
@@ -46,6 +46,17 @@ um algoritmo que procura por um determinado elemento em uma lista, verificando c
 3:faça busca pelo elemento A 
 7:escreva o resutado 
 
+(correçao)
+
+ler x
+para cada elemeno é igual a x , entao : 
+escreva encontrei x 
+fim
+fim-se
+fim-para
+escreva nao encontrei x
+fim
+
 Algoritmo de cálculo de potência:
 um algoritmo que calcula a potência de um número, elevando-o a uma determinada potência.
 
@@ -54,11 +65,16 @@ um algoritmo que calcula a potência de um número, elevando-o a uma determinada
 3:faça * do numero base (algoritmo A) quantas vezes for a potencia
 
 Algoritmo de verificação de número primo:
-um algoritmo que verifica se um número é primo, ou seja, se é divisível apenas por 1 e por ele mesmo.
+um algoritmo que verifica se um número é primo, ou seja, se é divisível apenas por 1 e por ele mesmo. ( corrigido )
 
-1:leia o algoritmo A
-2:se algoritmo for > 1 e divisivel por A
-3:escreva o resutado 
+1:ler x
+2:para cada numero entre 2 e x-1 , faça :
+3:escreva x nao é primo 
+fim
+fim-se
+fim-para
+escreva x é primo
+fim 
 
 Algoritmo de cálculo de área de um triângulo:
 um algoritmo que calcula a área de um triângulo com base na base e altura fornecidas.
@@ -80,6 +96,17 @@ um algoritmo que calcula o montante de dinheiro após um período de tempo com j
 4: A * 1-taixa * tempo 
 7: escreva o resutado
 
+(correçao)
+
+ler capital 
+ler taxa de juros 
+ler tempo
+x= 1 + taxa_juros
+para cada numero entre 1 e tempo , faça :
+x=x * x
+m= capital * x
+escreva M
+
 Algoritmo de cálculo de média ponderada:
 um algoritmo que calcula a média ponderada de uma lista de números com base nos pesos fornecidos.
 
@@ -88,4 +115,14 @@ um algoritmo que calcula a média ponderada de uma lista de números com base no
 3: faça A / + de todos os pesos
 4: escreva o resutado 
 
+(correçao)
 
+ler lista_valores
+ler lista_peso
+var soma = 0
+para cada nmero da lista-valores , faça 
+soma = soma + (numero * peso_respectivo)
+var soma_peso=0
+para cada numero da lista_peso, faça:
+soma_peso = soma_peso + numero
+media = soma / soma 
